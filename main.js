@@ -119,7 +119,6 @@ function displayQuestion() {
         const optionsWithInputElement = document.createElement("div")
         optionsWithInputElement.className = "quiz-options-with-input"
 
-
         const inputElement = document.createElement("input")
         inputElement.id = "input-answer"
         inputElement.type = "text"
@@ -143,11 +142,7 @@ function displayQuestion() {
             buttonElement.onclick = () => checkAnswerAndDisplayNext(option);
             optionsContainer.appendChild(buttonElement)
         });
-
-
     }
-
-
 }
 
 /* 
@@ -234,7 +229,6 @@ function hideElement(htmlElement) {
 function showElement(htmlElement) {
     htmlElement.classList.remove("hide")
 }
-
 
 // =====================================================
 // Globala Variablar
