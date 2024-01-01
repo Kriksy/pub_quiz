@@ -3,7 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pub Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="reset" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad&display=swap"
+      rel="stylesheet"
+    />
+    <script src="quiz.js" defer></script>
+    <script src="main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div id="navbar">
+      <div id="nav">
+        <img
+          id="pub-quiz-menu-icon"
+          src="./images/pub_quiz.png"
+          alt="Pub Quiz"
+        />
+      </div>
+    </div>
+
+    <div id="quiz-container" class="quiz-container">
+      <div id="quiz-text-intro" class="quiz-text-box"></div>
+      <div id="quiz-topics" class="quiz-topics"></div>
+      <div id="quiz-question" class="quiz-text-box hide"></div>
+      <div id="quiz-options" class="quiz-options hide"></div>
+      <div id="quiz-result" class="quiz-result hide"></div>
+    </div>
+
+    <footer id="footer">
+      <div>
+        <p>@G10 - Alkohol kan skada din hälsa</p>
+      </div>
+    </footer>
+  </body>
 </html>
